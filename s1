@@ -3,7 +3,7 @@
        value:
        	     red = 10
 	     green =20
-	     orange =40
+	     orange =30
        port 0: 10.1.0.1.1
        port 1: 10.1.0.1.2
        port 2: 10.1.0.1.3
