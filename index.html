@@ -136,12 +136,12 @@
             divResult.appendChild(anchor)
             divResult.appendChild(document.createElement("br"))
         })
-        urls.forEach(u => {
+        /*urls.forEach(u => {
             const btn = document.createElement("button")
             btn.textContent = u.title;
             btn.addEventListener("click", e=> getCommits(u.url))
             divResult.appendChild(btn);
-        })
+        })*/
     }
     function clear(){
         while(divResult.firstChild) 
