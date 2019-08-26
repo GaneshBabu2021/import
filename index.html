@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-/*<head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>github</title>
-</head>*/
+</head>
 <body>
     <h1>Github tutorial</h1>
     <button id = 'btnRepos'>Repos</button>
@@ -106,8 +106,9 @@
             divResult.appendChild(document.createElement("br"))
         })
     }
-    async function getCommits(url="https://api.github.com/search/commits?q=repo:GaneshBabu2021/import author-date:2019-07-01..2019-07-31") {
+    async function getCommits() {
         clear();
+        const url = "https://api.github.com/search/commits?q=repo:GaneshBabu2021/import author-date:2019-07-01..2019-07-31"
         
         const headers = {
             "Accept" : "application/vnd.github.cloak-preview"
